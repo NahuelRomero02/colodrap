@@ -52,4 +52,10 @@
     background-color: rgb(255, 115, 0);
 
   }
+/* Eliminar el efecto de foco en los botones del acordeón */
+.accordion-button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 
