@@ -1,0 +1,55 @@
+#img-carousel{
+    width: 900px;
+    height: 700px;
+}
+.floating-image {
+    animation: float 3s ease-in-out infinite;
+    border: 14px solid rgb(255, 115, 0); /* Borde negro exterior */
+    border-radius: 15px; /* Radio del borde */
+    box-shadow: 0 0 0 5px rgb(255, 115, 0); /* Borde naranja interior */
+  }
+  
+  /* Animación de flotación */
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .acordion-css{
+    margin-top: 400px;
+  }
+  
+  .nav-bar{
+    background-color: rgb(255, 115, 0);
+  }
+
+
+  .acordion-card{
+    margin-top: 7%;
+  }
+  .service-card {
+    width: 18rem;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  @media (max-width: 390px) {
+    img {
+      width: 100px;
+      height: 30px;
+    }
+  }
+  footer{
+    background-color: rgb(255, 115, 0);
+
+  }
+
