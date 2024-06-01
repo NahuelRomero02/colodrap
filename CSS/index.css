@@ -4,18 +4,23 @@
 }
 .floating-image {
     animation: float 3s ease-in-out infinite;
-    border: 14px solid rgb(255, 115, 0); /* Borde negro exterior */
-    border-radius: 15px; /* Radio del borde */
-    box-shadow: 0 0 0 5px rgb(255, 115, 0); /* Borde naranja interior */
+    border: 14px solid rgb(255, 68, 0); /* Borde negro exterior */
+    /* border-radius: 15px;  */
+    box-shadow: 0 0 0 5px rgb(255, 68, 0); /* Borde naranja interior */
   }
   
   /* Animación de flotación */
+
+  .animation{
+    animation: float 3s ease-in-out infinite;
+
+  }
   @keyframes float {
     0% {
       transform: translateY(0);
     }
     50% {
-      transform: translateY(-10px);
+      transform: translateY(-6px);
     }
     100% {
       transform: translateY(0);
