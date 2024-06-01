@@ -4,9 +4,10 @@
 }
 .floating-image {
     animation: float 3s ease-in-out infinite;
-    border: 14px solid rgb(255, 68, 0); /* Borde negro exterior */
+    /* border: 14px solid rgb(255, 68, 0); Borde negro exterior */
     /* border-radius: 15px;  */
-    box-shadow: 0 0 0 5px rgb(255, 68, 0); /* Borde naranja interior */
+    /* box-shadow: 0 0 0 5px rgb(255, 68, 0); Borde naranja interior */
+    
   }
   
   /* Animación de flotación */
@@ -31,9 +32,7 @@
     margin-top: 400px;
   }
   
-  .nav-bar{
-    background-color: rgb(255, 115, 0);
-  }
+
 
 
   .acordion-card{
@@ -61,6 +60,21 @@
 .accordion-button:focus {
   outline: none !important;
   box-shadow: none !important;
+}
+.nav-bar {
+  background-color: rgb(255, 115, 0);
+  display: flex;
+  justify-content: center;
+  border: 2px solid;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.nav-item {
+  margin: 0 10px; /* Espacio entre los íconos */
 }
 
 
