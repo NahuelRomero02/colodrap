@@ -96,5 +96,11 @@
   }
 }
 
-
-
+a:hover {
+  color: black;
+  background-color: rgb(255, 89, 0);
+  border: 1px solid;
+  border-radius: 12px;
+  /* font-size: large; */
+  /* font-family: 'Courier New', Courier, monospace; */
+}
