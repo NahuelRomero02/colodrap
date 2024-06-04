@@ -62,7 +62,7 @@
   box-shadow: none !important;
 }
 .nav-bar {
-  background-color: rgb(255, 115, 0);
+  background-color: rgb(255, 68, 0);
   display: flex;
   justify-content: center;
   border: 2px solid;
@@ -76,5 +76,25 @@
 .nav-item {
   margin: 0 10px; /* Espacio entre los íconos */
 }
+
+.card-title{
+  color: rgb(196, 196, 196);
+  margin: 10px;
+  
+}
+
+.card-text{
+  color: white;
+  margin: 15px;
+}
+
+
+
+@media (max-width: 990px) {
+  cards-services {
+    margin-top: 60px;
+  }
+}
+
 
 
