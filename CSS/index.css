@@ -1,89 +1,109 @@
-#img-carousel{
-    width: 900px;
-    height: 700px;
+h1 {
+  color: white;
 }
+
+h2 {
+  color: white;
+}
+
+#img-carousel {
+  width: 900px;
+  height: 700px;
+}
+
 .floating-image {
-    animation: float 3s ease-in-out infinite;
-    /* border: 14px solid rgb(255, 68, 0); Borde negro exterior */
-    /* border-radius: 15px;  */
-    /* box-shadow: 0 0 0 5px rgb(255, 68, 0); Borde naranja interior */
-    
-  }
-  
-  /* Animación de flotación */
+  animation: float 3s ease-in-out infinite;
+  /* border: 14px solid rgb(255, 68, 0); Borde negro exterior */
+  /* border-radius: 15px;  */
+  /* box-shadow: 0 0 0 5px rgb(255, 68, 0); Borde naranja interior */
 
-  .animation{
-    animation: float 3s ease-in-out infinite;
+}
 
-  }
-  @keyframes float {
-    0% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-6px);
-    }
-    100% {
-      transform: translateY(0);
-    }
+/* Animación de flotación */
+
+.animation {
+  animation: float 3s ease-in-out infinite;
+
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
   }
 
-  .acordion-css{
-    margin-top: 400px;
-  }
-  
-
-
-
-  .acordion-card{
-    margin-top: 7%;
-  }
-  .service-card {
-    width: 18rem;
+  50% {
+    transform: translateY(-6px);
   }
 
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.acordion-css {
+  margin-top: 400px;
+}
+
+
+
+
+.acordion-card {
+  margin-top: 7%;
+}
+
+.service-card {
+  width: 18rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 390px) {
   img {
-    max-width: 100%;
-    height: auto;
+    width: 100px;
+    height: 30px;
   }
-  @media (max-width: 390px) {
-    img {
-      width: 100px;
-      height: 30px;
-    }
-  }
-  footer{
-    background-color: rgb(255, 115, 0);
+}
 
-  }
+footer {
+  background-color: rgb(255, 115, 0);
+
+}
+
 /* Eliminar el efecto de foco en los botones del acordeón */
 .accordion-button:focus {
   outline: none !important;
   box-shadow: none !important;
 }
+
 .nav-bar {
   background-color: rgb(255, 68, 0);
   display: flex;
   justify-content: center;
   border: 2px solid;
 }
+
 .navbar-nav {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
+
 .nav-item {
-  margin: 0 10px; /* Espacio entre los íconos */
+  margin: 0 10px;
+  /* Espacio entre los íconos */
 }
 
-.card-title{
+.card-title {
   color: rgb(196, 196, 196);
   margin: 10px;
-  
+
 }
 
-.card-text{
+.card-text {
   color: white;
   margin: 15px;
 }
@@ -104,3 +124,46 @@ a:hover {
   /* font-size: large; */
   /* font-family: 'Courier New', Courier, monospace; */
 }
+
+#gmap_canvas {
+  height: 560px;
+  width: 1000px;
+  /* justify-content: center;
+  align-items: center; */
+  margin-left: 255px;
+}
+
+@media (max-width:990px) {
+  #gmap_canvas {
+    height: 500px;
+    width: 300px;
+    margin: 0 auto; /* Centra el elemento horizontalmente */
+    display: block; 
+    margin-left: 50px;
+    
+  }
+
+}
+
+/*  */
+
+.map {
+  background-color: rgb(255, 89, 0);
+  padding: 10px;
+
+}
+
+.ubicacion {
+  text-align: center;
+}
+
+.mapouter {
+  /* position: relative;
+  text-align: right; */
+  height: 560px;
+  width: 120px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
